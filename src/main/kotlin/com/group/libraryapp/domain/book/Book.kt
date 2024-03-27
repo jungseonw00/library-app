@@ -10,7 +10,6 @@ import javax.persistence.Id
 class Book(
     val name: String,
 
-
     @Id
     @GeneratedValue(strategy = IDENTITY)
     val id: Long? = null

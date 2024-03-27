@@ -13,7 +13,7 @@ public class UserUpdateRequest {
 		return name;
 	}
 
-	public UserUpdateRequest(long id, String name) {
+	public UserUpdateRequest(Long id, String name) {
 		this.id = id;
 		this.name = name;
 	}
